@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fashion Store</title>
+
+    <style>
+
+        body {
+            font-family: Arial;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #111;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        nav {
+            background-color: #222;
+            text-align: center;
+            padding: 12px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 12px;
+        }
+
+        nav a:hover {
+            color: #ffd700;
+        }
+
+        .container {
+            width: 90%;
+            margin: 20px auto;
+        }
+
+        h2 {
+            color: #222;
+        }
+
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .product {
+            background-color: white;
+            width: 220px;
+            padding: 15px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+
+        .product img {
+            width: 200px;
+            height: 230px;
+            object-fit: contain;
+        }
+
+        .product h3 {
+            margin: 10px 0;
+        }
+
+        .price {
+            color: #008000;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .rating {
+            color: #e6a400;
+        }
+
+        .button {
+            background-color: #111;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background-color: #444;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 12px;
+            margin-top: 30px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>FASHION STORE</h1>
+    <p>Old Money & Gen Z Collection</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="oldmoney.html">Old Money</a>
+    <a href="genz.html">Gen Z</a>
+    <a href="kids.html">Kids</a>
+    <a href="products.html">All Products</a>
+    <a href="brands.html">Brands</a>
+</nav>
+
+<div class="container">
+
+    <h2>Men's Old Money Collection</h2>
+
+    <div class="products">
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1627225924765-552d49cf47ad">
+            <h3>Classic Polo Shirt</h3>
+            <p>Old Money Style</p>
+            <p class="rating">★★★★★</p>
+            <p class="price">₹1,499</p>
+            <button class="button">View Product</button>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1603252110481-7ba873bf42ab">
+            <h3>Linen Shirt</h3>
+            <p>Old Money Style</p>
+            <p class="rating">★★★★☆</p>
+            <p class="price">₹1,999</p>
+            <button class="button">View Product</button>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1624378439575-d8705ad7ae80">
+            <h3>Classic Chinos</h3>
+            <p>Old Money Style</p>
+            <p class="rating">★★★★★</p>
+            <p class="price">₹1,799</p>
+            <button class="button">View Product</button>
+        </div>
+
+    </div>
+
+
+    <h2>Men's Gen Z Collection</h2>
+
+    <div class="products">
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab">
+            <h3>Oversized T-Shirt</h3>
+            <p>Gen Z Style</p>
+            <p class="rating">★★★★★</p>
+            <p class="price">₹999</p>
+            <button class="button">View Product</button>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f">
+            <h3>Baggy Jeans</h3>
+            <p>Gen Z Style</p>
+            <p class="rating">★★★★☆</p>
+            <p class="price">₹1,899</p>
+            <button class="button">View Product</button>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1556821840-3a63f95609a7">
+            <h3>Oversized Hoodie</h3>
+            <p>Gen Z Style</p>
+            <p class="rating">★★★★★</p>
+            <p class="price">₹1,699</p>
+            <button class="button">View Product</button>
+        </div>
+
+    </div>
+
+
+    <h2>Kids' Collection</h2>
+
+    <div class="products">
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1519238263530-99bdd11df2ea">
+            <h3>Kids Polo Shirt</h3>
+            <p>Old Money Style</p>
+            <p class="rating">★★★★★</p>
+            <p class="price">₹899</p>
+            <button class="button">View Product</button>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1503919545889-aef636e10ad4">
+            <h3>Kids Casual Shirt</h3>
+            <p>Classic Style</p>
+            <p class="rating">★★★★☆</p>
+            <p class="price">₹799</p>
+            <button class="button">View Product</button>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1519238263530-99bdd11df2ea">
+            <h3>Kids Casual Outfit</h3>
+            <p>Gen Z Inspired</p>
+            <p class="rating">★★★★★</p>
+            <p class="price">₹1,199</p>
+            <button class="button">View Product</button>
+        </div>
+
+    </div>
+
+</div>
+
+<footer>
+    <p>Fashion Store | BCA 1st Semester UDP Project</p>
+</footer>
+
+</body>
+</html>
